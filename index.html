@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="mApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RKTech's blog</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<!-- 
+--- Things to be done ---
+* SEO
+* Move CSS to SASS
+* Make this SPA using angular
+* Use gulp to compile the project and deploy
+* Deploy nodejs and express server to serve the files
+* Use MEAN stack to make it a full stack app
+* MongoDB to store the contents
+-->
+
+<body>
+    <div id="wrapper">
+        <header id="main_header">
+            <div>
+                <div class="logo-container">
+                    <a href="/" class="rk-logo">RKTech's blog</a>
+                </div>
+                <div class="nav_container">
+                    <nav>
+                        <a href="/topics/">Topics</a>
+                        <a href="/about.html">About</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section id="main_section">
+            <div data-ng-view=""></div>
+
+            <div data-ng-controller="ArticleController as articlestore">
+                <div class="top-ruler"></div>
+                <article class="article-item" data-ng-repeat="article in articles" data-ng-show="article.display">
+                    <div class="figure-container">
+                        <figure>
+                            <img data-ng-src="{{::article.thumbnailUrl}}" alt="{{::article.thumbnailAlt}}">
+                        </figure>
+                    </div>
+                    <div class="desc-container">
+                        <div class="article-desc">
+                            <div class="article-title">{{::article.title}}</div>
+                            <div class="article-summary">{{::article.summary}}</div>
+                        </div>
+                        <div class="article-meta">
+                            <div class="article-author-info">
+                                <a class="author-img" ng-style="{'background-image': 'url(' + article.authorImage + ')'}" ng-href="{{::article.authorProfile}}" target="_blank"></a>
+                                <a class="author-name" ng-href="{{::article.authorProfile}}" target="_blank">{{::article.author}}</a>
+                            </div>
+                            <div class="article-categories">
+                                <span data-ng-repeat="category in article.categories | orderBy">{{::category}} </span>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="article-link" href="{{::article.articleUrl}}"></a>
+                    <div class="ruler"></div>
+                </article>
+            </div>
+        </section>
+
+        <aside id="upcoming_aside">
+            <header>
+                <h4>Upcoming articles...</h4>
+            </header>
+            <section>
+                <p>Web Workers</p>
+                <p>Service Workers</p>
+                <p>Promises</p>
+                <p>Generators</p>
+                <p>Web Components</p>
+                <p>SIMD</p>
+            </section>
+        </aside>
+
+        <footer id="main_footer" data-ng-controller="ProfilesController">
+            <!--<span>Icon credits: <a href="https://www.iconfinder.com/Jozef89">Jozef Krajčovič</a></span></br>-->
+            <div id="profiles">
+                <span>View my profile on: </span>
+                <span data-ng-repeat="profile in profiles">
+                    <a class="profile-link" ng-href="{{::profile.profileUrl}}" target="_blank">
+                        <img class="profile-icon" title="{{::profile.title}}" ng-src="{{::profile.iconUrl}}" alt="{{::profile.iconAlt}}">
+                    </a>
+                </span>
+            </div>
+            <div>Copyrights: Rajkumar</div>
+    </div>
+    </footer>
+    </div>
+</body>
+
+</html>

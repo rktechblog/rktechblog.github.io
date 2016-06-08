@@ -1,0 +1,46 @@
+ @font-face {
+     font-family: Geobats;
+     src: url('../../assets/fonts/geobats.ttf');
+ }
+ 
+ @font-face {
+     font-family: Geobats-bold;
+     font-weight: bold;
+     src: url('../../assets/fonts/geobats.ttf');
+ }
+ 
+ @font-face {
+     font-family: Icomoon;
+     src: url('../../assets/fonts/icomoon.ttf');
+ }
+ 
+ @font-face {
+     font-family: Icomoon-bold;
+     font-weight: bold;
+     src: url('../../assets/fonts/icomoon.ttf');
+ }
+
+html, body {
+    height: 100%;
+}
+ 
+ i {
+     margin: 5px;
+ }
+ 
+ i.india {
+     font-style: normal;
+     font-family: Geobats;
+     display: block;
+     font-size: 72px;
+     /* CSS for gradient text color - Order Matters */
+     background: linear-gradient(orange, lightgrey, green);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     /* Order matters */
+ }
+ 
+ i.msg {
+     font-style: normal;
+     font-family: Icomoon;
+ }

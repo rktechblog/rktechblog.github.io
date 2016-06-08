@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Form validation using CSS selectors</title>
+    <link rel="stylesheet" href="../../css/app.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="main_header">
+            <div>
+                <div class="logo-container">
+                    <a href="/" class="rk-logo">RKTech's blog</a>
+                </div>
+                <div class="nav_container">
+                    <nav>
+                        <a href="/topics/">Topics</a>
+                        <a href="/about.html">About</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div id="formContainer">
+                <form id="form" name="form">
+                    <div>
+                        <span class="label" data-field="*">Username</span>
+                        <input data type="text" required>
+                    </div>
+                    <div>
+                        <span class="label" data-field="*">Password</span>
+                        <input type="password" required>
+                    </div>
+                    <div>
+                        <span class="label" data-field="*">Email</span>
+                        <input type="email" required>
+                    </div>
+                    <div>
+                        <span class="label">Phone </span>
+                        <input type="tel" pattern="[0-9]" optional>
+                    </div>
+                    <div>
+                        <span class="label">Website </span>
+                        <input type="url" optional>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
