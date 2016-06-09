@@ -3,8 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <title>RKTech's blog</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app-480.css" media="(min-width: 480px) and  (max-width: 959px)">
+    <link rel="stylesheet" href="css/app-320.css" media="(max-width: 479px)">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="js/app.js"></script>
@@ -35,11 +38,12 @@
                 </div>
             </div>
         </header>
+        
         <section id="main_section">
             <div data-ng-view=""></div>
 
             <div data-ng-controller="ArticleController as articlestore">
-                <div class="top-ruler"></div>
+                <div class="ruler top-ruler"></div>
                 <article class="article-item" data-ng-repeat="article in articles" data-ng-show="article.display">
                     <div class="figure-container">
                         <figure>
@@ -48,7 +52,7 @@
                     </div>
                     <div class="desc-container">
                         <div class="article-desc">
-                            <div class="article-title">{{::article.title}}</div>
+                            <div class="article-title" title="{{::article.title}}">{{::article.title}}</div>
                             <div class="article-summary">{{::article.summary}}</div>
                         </div>
                         <div class="article-meta">
@@ -82,7 +86,6 @@
         </aside>
 
         <footer id="main_footer" data-ng-controller="ProfilesController">
-            <!--<span>Icon credits: <a href="https://www.iconfinder.com/Jozef89">Jozef Krajčovič</a></span></br>-->
             <div id="profiles">
                 <span>View my profile on: </span>
                 <span data-ng-repeat="profile in profiles">
