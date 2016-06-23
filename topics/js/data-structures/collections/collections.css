@@ -1,0 +1,15 @@
+section.articles {
+    display: inline-block; /* Fix: To avoid gap at the top of the page caused by h2 element */
+}
+
+section.articles > header {
+    font-family: "Verdana";
+}
+
+section.properties > header {
+    font-family: "Tahoma";
+}
+
+li, p {
+    font-size: 90%;
+}
