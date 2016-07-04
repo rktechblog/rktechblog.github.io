@@ -60,9 +60,9 @@
         </header>
 
         <section id="main_section">
-            <div data-ng-view=""></div>
+            <!--<div data-ng-view=""></div>-->
 
-            <div class="articles-container" data-ng-controller="ArticleController as articlestore">
+            <div class="articles-container ng-cloak" data-ng-controller="ArticleController as articlestore">
                 <div class="ruler top-ruler" data-ng-show="false"></div>
                 <article class="article-item" data-ng-repeat="article in articles" data-ng-show="article.display">
                     <div class="figure-container">

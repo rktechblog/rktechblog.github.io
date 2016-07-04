@@ -2,6 +2,10 @@
 BG   #221E1D #ECEAE0 #E9633B
 TEXT #EDEBE1 #AEAB9D #63AA9C #221E1D
 */
+/* Angular ng-clock */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
 
 html {
     overflow-y: scroll; /* To avoid scrollbar from disturbing the layout */
