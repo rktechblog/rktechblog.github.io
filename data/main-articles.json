@@ -62,7 +62,7 @@
             "author": "Raaj",
             "authorImage": "https://lh3.googleusercontent.com/-TonL3cZZx5I/AAAAAAAAAAI/AAAAAAAAHHs/vx9vsmgiDis/s120-c/photo.jpg",
             "authorProfile": "https://www.github.com/raajkumar-s",
-            "categories": ["datastructures"],
+            "categories": ["javascript","datastructures"],
             "display": true
         },
         {
@@ -75,7 +75,7 @@
             "author": "Raaj",
             "authorImage": "https://lh3.googleusercontent.com/-TonL3cZZx5I/AAAAAAAAAAI/AAAAAAAAHHs/vx9vsmgiDis/s120-c/photo.jpg",
             "authorProfile": "https://www.github.com/raajkumar-s",
-            "categories": ["animation", "web", "css"],
+            "categories": ["css","animation"],
             "display": true
         },
         {
@@ -88,7 +88,7 @@
             "author": "Raaj",
             "authorImage": "https://lh3.googleusercontent.com/-TonL3cZZx5I/AAAAAAAAAAI/AAAAAAAAHHs/vx9vsmgiDis/s120-c/photo.jpg",
             "authorProfile": "https://www.github.com/raajkumar-s",
-            "categories": ["web", "css"],
+            "categories": ["css"],
             "display": true
         },
         {
@@ -101,7 +101,7 @@
             "author": "Raaj",
             "authorImage": "https://lh3.googleusercontent.com/-TonL3cZZx5I/AAAAAAAAAAI/AAAAAAAAHHs/vx9vsmgiDis/s120-c/photo.jpg",
             "authorProfile": "https://www.github.com/raajkumar-s",
-            "categories": ["web", "css"],
+            "categories": ["css"],
             "display": true
       },
         {
@@ -114,7 +114,7 @@
             "author": "Raaj",
             "authorImage": "https://lh3.googleusercontent.com/-TonL3cZZx5I/AAAAAAAAAAI/AAAAAAAAHHs/vx9vsmgiDis/s120-c/photo.jpg",
             "authorProfile": "https://www.github.com/raajkumar-s",
-            "categories": ["web", "css", "fonts"],
+            "categories": ["css","fonts"],
             "display": true
         },
         {
@@ -127,7 +127,7 @@
             "author": "Raaj",
             "authorImage": "https://lh3.googleusercontent.com/-TonL3cZZx5I/AAAAAAAAAAI/AAAAAAAAHHs/vx9vsmgiDis/s120-c/photo.jpg",
             "authorProfile": "https://www.github.com/raajkumar-s",
-            "categories": ["web", "css", "forms"],
+            "categories": ["css","html","forms"],
             "display": true
         },
         {
@@ -140,7 +140,7 @@
             "author": "Raaj",
             "authorImage": "https://lh3.googleusercontent.com/-TonL3cZZx5I/AAAAAAAAAAI/AAAAAAAAHHs/vx9vsmgiDis/s120-c/photo.jpg",
             "authorProfile": "https://www.github.com/raajkumar-s",
-            "categories": ["web", "css"],
+            "categories": ["css"],
             "display": true
         },
         {
@@ -153,7 +153,7 @@
             "author": "Raaj",
             "authorImage": "https://lh3.googleusercontent.com/-TonL3cZZx5I/AAAAAAAAAAI/AAAAAAAAHHs/vx9vsmgiDis/s120-c/photo.jpg",
             "authorProfile": "https://www.github.com/raajkumar-s",
-            "categories": ["web", "css"],
+            "categories": ["css"],
             "display": true
         },
         {
@@ -166,7 +166,7 @@
             "author": "Raaj",
             "authorImage": "https://lh3.googleusercontent.com/-TonL3cZZx5I/AAAAAAAAAAI/AAAAAAAAHHs/vx9vsmgiDis/s120-c/photo.jpg",
             "authorProfile": "https://www.github.com/raajkumar-s",
-            "categories": ["web", "css"],
+            "categories": ["css"],
             "display": true
         },        
         {
@@ -183,6 +183,19 @@
             "display": true
         },
         {
+            "title": "Interview Questions - Part 4",
+            "header": "Interview Questions",
+            "thumbnailUrl": "assets/images/interview.jpg",
+            "thumbnailAlt": "Interview",
+            "summary": "Interview Questions on JavaScript, HTML, CSS, Angular and many more.",
+            "articleUrl": "/topics/interview/interview-questions-4.html",
+            "author": "Raaj",
+            "authorImage": "https://lh3.googleusercontent.com/-TonL3cZZx5I/AAAAAAAAAAI/AAAAAAAAHHs/vx9vsmgiDis/s120-c/photo.jpg",
+            "authorProfile": "https://www.github.com/raajkumar-s",
+            "categories": ["interview"],
+            "display": false
+        },
+        {
             "title": "Interview Questions - Part 3",
             "header": "Interview Questions",
             "thumbnailUrl": "assets/images/interview.jpg",
@@ -192,7 +205,7 @@
             "author": "Raaj",
             "authorImage": "https://lh3.googleusercontent.com/-TonL3cZZx5I/AAAAAAAAAAI/AAAAAAAAHHs/vx9vsmgiDis/s120-c/photo.jpg",
             "authorProfile": "https://www.github.com/raajkumar-s",
-            "categories": ["web", "javascript", "html", "css", "jquery", "angular"],
+            "categories": ["interview"],
             "display": false
         },
         {
@@ -205,7 +218,7 @@
             "author": "Raaj",
             "authorImage": "https://lh3.googleusercontent.com/-TonL3cZZx5I/AAAAAAAAAAI/AAAAAAAAHHs/vx9vsmgiDis/s120-c/photo.jpg",
             "authorProfile": "https://www.github.com/raajkumar-s",
-            "categories": ["web", "javascript", "html", "css", "jquery", "angular"],
+            "categories": ["interview"],
             "display": false
         },
         {
@@ -218,7 +231,7 @@
             "author": "Raaj",
             "authorImage": "https://lh3.googleusercontent.com/-TonL3cZZx5I/AAAAAAAAAAI/AAAAAAAAHHs/vx9vsmgiDis/s120-c/photo.jpg",
             "authorProfile": "https://www.github.com/raajkumar-s",
-            "categories": ["web", "javascript", "html", "css", "jquery", "angular"],
+            "categories": ["interview"],
             "display": false
         }
    ]
