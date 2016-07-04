@@ -22,6 +22,9 @@
     #main_section .article-item {
         padding: 10px;
     }
+    .ruler {
+        top: 10px;
+    }
     #upcoming_aside {
         float: initial;
         width: 100%;
