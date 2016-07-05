@@ -38,7 +38,7 @@
                 <p>Ans: <code>undefined</code></p>
                 <p>Surprised? Expected <code>{n:2}</code>? Let's see why it's not.</p>
 
-                <p>Before getting in to the details, you should know that eventhough assignment operator (=) has right-to-left associativity, according to spec <b>expression</b> on the right side is evaluated first. This is get to the reference of the memory to which the evaluated value will be assigned</p>
+                <p>Before getting in to the details, you should know that eventhough assignment operator (=) has right-to-left associativity, according to spec <b>expression</b> on the <b>left</b> side is evaluated first. This is to get the reference of the memory [location] to which the evaluated value will be assigned.</p>
                 <p>Let's break the code</p>
                 <ul>
                     <li>
@@ -88,7 +88,7 @@
                                                 <li>Assign {n:2} to foo, and return {n:2}.</li>
                                             </ul>
                                             <div class="fig fig4"></div>
-                                            <small>Note: The <code>foo</code> which is green color is temporary.</small>
+                                            <small>Note: The <code>foo</code> which is in green color is temporary.</small>
                                         </div>
 
 
